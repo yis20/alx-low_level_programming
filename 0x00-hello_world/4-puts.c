@@ -2,7 +2,7 @@
 /**
  * main - Entry point Hello,Puts using puts
  *
- *Programming is like building a multilingual puzzle
+ *puts out- Programming is like building a multilingual puzzle
  *
  * Return:Always 0 (success)
  */

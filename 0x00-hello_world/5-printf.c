@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - with proper grammer out comr is piece of art
  *
  * Return: 0
  */
