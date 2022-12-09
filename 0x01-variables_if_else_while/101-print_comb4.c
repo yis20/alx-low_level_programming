@@ -11,20 +11,20 @@ int main(void)
 	int o;
 	int r;
 
-	for (f = 49; f < 59; f++)
+	for (f = 48; f < 58; f++)
 	{
-		for (o = 49; o < 59; o++)
+		for (o = 48; o < 58; o++)
 		{
 			if (o > f)
 			{
-				for (r = 49; r < 59; r++)
+				for (r = 48; r < 58; r++)
 				{
 					if (r > o)
 					{
 					putchar(f);
 					putchar(o);
 					putchar(r);
-					if (f == 56 && o == 57 && r == 58)
+					if (f == 55 && o == 56 && r == 57)
 					{
 						break;
 					}
