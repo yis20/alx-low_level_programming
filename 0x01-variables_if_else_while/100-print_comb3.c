@@ -12,7 +12,7 @@ int main(void)
 
 	for (tenses = 0; tenses <= 9; tenses++)
 	{
-		for (oneses = tenses + 1; oneess <= 9; oneses++)
+		for (oneses = tenses + 1; oneses <= 9; oneses++)
 		{
 			putchar(tenses + '0');
 			putchar(oneses + '0');
