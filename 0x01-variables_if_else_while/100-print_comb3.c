@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(tenses + '0');
 			putchar(oneses + '0');
-			if (tenses < 88)
+			if (tenses < 8)
 			{
 				putchar(',');
 				putchar(' ');
