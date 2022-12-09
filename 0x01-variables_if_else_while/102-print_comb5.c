@@ -17,7 +17,7 @@ int main(void)
 			if (k > j)
 			{
 				putchar(j / 10 + '0');
-				putchar(j & 10 + '0');
+				putchar(j % 10 + '0');
 				putchar(' ');
 				putchar(k / 10 + '0');
 				putchar(k % 10 + '0');
