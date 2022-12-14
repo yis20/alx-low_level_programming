@@ -4,7 +4,7 @@
  * main - alphabet
  * print_alphabet_x10 - print ten times from a-z
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
 	int i;
 	char x;
