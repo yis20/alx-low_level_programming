@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer _ prints every minute of the day of jack bauer, \starting from0arting from 00:00 to 23:59
+ * jack_bauer - printeveryminuteofthedayof jack bauer,\starting 00:00 to 23:59
  *
  * Return: nothing on success
  */
