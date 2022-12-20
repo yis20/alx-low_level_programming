@@ -30,7 +30,7 @@ int _atoi(char *s)
 			if (b % 2)
 				dig = -dig;
 			m = m * 10 + dig;
-			fa = 1
+			fa = 1;
 			if (s[y + 1] < '0' || s[y + 1] > '9')
 				break;
 			fa = 0;
