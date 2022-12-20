@@ -24,8 +24,8 @@ int main(void)
 		putchar(pas[y] + '0');
 		if ((2772 - y) - '0' < 78)
 		{
-			n = 2772 - t - '0';
-			sum += k;
+			k = 2772 - t - '0';
+			t += k;
 			putchar(k + '0');
 			break;
 		}
