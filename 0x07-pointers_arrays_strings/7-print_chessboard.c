@@ -19,12 +19,3 @@ void print_chessboard(char (*a)[8])
 		 _putchar('\n');
 	}
 }
-/**
- * main - Entry point for the program
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	return (0);
-}
