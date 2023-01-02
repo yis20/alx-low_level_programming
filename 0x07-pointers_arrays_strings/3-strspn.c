@@ -1,23 +1,30 @@
 #include "main.h"
 /**
- * _strspn - a function prints the consecytive characters od s1 thatare in s2.
+ * _strspn - search a string for a set of bytes
  * @s: source string
  * @accept: searching string
- * Return: new string.
+ * Return: new string
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	unsigned int i = 0, j, t = 0;
 
-	for (j = 0; *(s + j); j++)
+	while (accept[i])
 	{
-		for (i = 0; *(accept + 1); i++)
+		j = 0;
+
+		while (s[j] != 32)
 		{
-			if (*(s + j) == *(accept + i))
-				break;
+			if (accept[i] == s[j])
+			{
+				t++;
+			}
+
+			j++;
 		}
-		if (*(accept + i) == '\0')
-			break;
+
+		i++;
 	}
-	return (j);
+
+	return (t);
 }
