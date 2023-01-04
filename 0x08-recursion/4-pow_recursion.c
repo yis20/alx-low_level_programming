@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion -> power using recursion
- * @i: i ^ j
- * @j: the power number
+ * @x: x ^ y
+ * @y: the power number
  * Return: power result
  */
 int _pow_recursion(int x, int y)
