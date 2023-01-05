@@ -1,35 +1,30 @@
 #include "main.h"
 
+int _sqrt(int, int);
+
 /**
- * _strstr - locate a substring
- * @haystack: the string to search
- * @needle: the string to find
- *
- * Return: char value
+ * _sqrt_recursion -> sqrt using recursion
+ * @n: parameter to be sqrt
+ * Return: square root of a number
  */
-char *_strstr(char *haystack, char *needle)
+int _sqrt_recursion(int n)
 {
-	int i = 0, j = 0;
+	return (_sqrt(n, 1));
+}
 
-	while (haystack[i])
-	{
-		while (needle[j])
-		{
-			if (haystack[i + j] != needle[j])
-			{
-				break;
-			}
+/**
+ * _sqrt -> recursive square root
+ * @n: number
+ * @i: iterator
+ * Return: a number
+ */
+int _sqrt(int n, int i)
+{
+	int square = i * i;
 
-			j++;
-		}
-
-		if (needle[j] == '\0')
-		{
-			return (haystack + i);
-		}
-
-		i++;
-	}
-
-	return ('\0');
+	if (square > n)
+		return (-1);
+	if (square == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
