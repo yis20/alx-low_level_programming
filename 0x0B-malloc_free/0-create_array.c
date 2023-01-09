@@ -5,7 +5,7 @@
  * @c: character to initialize an array with
  * Return: NULL if it fials or a pointer to an array
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *b;
