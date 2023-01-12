@@ -1,17 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _abs - get absolute value
- * @n: number to calculate
- * Return: absolute value of the number
- *
- */
+  * _abs - get absolute value
+  * @n: number to calculate
+  * Return: absolute value of the number
+  */
 int _abs(int n)
 {
-	if (n < 0)
-		return (-n);
-	else
-		return (n);
+	return ((n < 0) ? (n *= -1) : (n));
 }
 /**
   * array_range - creates an array of integers
@@ -21,15 +17,16 @@ int _abs(int n)
   */
 int *array_range(int min, int max)
 {
+	int *p;
+	int range, i;
+
 	if (min > max)
 		return (NULL);
-	int range = max - min + 1;
-	int *array = (int *) malloc(range * sizeof(int));
-
-	if (array == NULL)
-
+	range = max - min + 1;
+	p = (int *)malloc(range * sizeof(*p));
+	if (p == NULL)
 		return (NULL);
-	for (int i = 0; i < range; i++, min++)
-		array[i] = min;
-		return (array);
+	for (i = 0; i < range; min++, i++)
+		*(p + i) = min;
+	return (p);
 }
