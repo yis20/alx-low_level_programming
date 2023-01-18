@@ -4,8 +4,9 @@
 /**
  * get_op_func - get an operation
  * @s: operator
- * Return: No
+ * Return: pointer to function
  */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
