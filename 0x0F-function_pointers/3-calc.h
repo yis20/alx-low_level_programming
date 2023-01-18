@@ -1,5 +1,5 @@
-#ifndef CALC_H_PROTOTYPES
-#define CALC_H_PROTOTYPES
+#ifndef POINTERS_FUNC_H_
+#define POINTERS_FUNC_H_
 #include <stdio.h>
 
 /**
