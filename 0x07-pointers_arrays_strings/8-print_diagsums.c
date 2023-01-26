@@ -3,7 +3,7 @@
 /**
  * print_diagsums - prints sum oftwoo diagonals of a square.
  * @a: pointer to array.
- * @size; size of array.
+ * @size: size of array.
  *
  * Return: void.
  */
